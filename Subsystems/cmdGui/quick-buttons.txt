@@ -26,9 +26,9 @@ Time Services (CPU1),       cfe__time__msg_8h,  Time No-Op,    0, 0x1805, LE, 12
 Telemetry Output,            TO_LAB_CMD,        Enable Tlm,    6, 0x1880, LE, 127.0.0.1,  1234, TO_OUTPUT_ENABLE_CC
 Executive Services,         CFE_ES_CMD,         ES No-Op,      0, 0x1806, LE, 127.0.0.1,  1234, CFE_ES_NOOP_CC
 Software Bus,               CFE_SB_CMD,         SB No-Op,      0, 0x1803, LE, 127.0.0.1,  1234, CFE_SB_NOOP_CC
-Table Services,             CFE_TBL_CMD,        TBL No-Op,      0, 0x1804, LE, 127.0.0.1,  1234, CFE_TBL_NOOP_CC
+Table Services,             CFE_TBL_CMD,        TBL No-Op,     0, 0x1804, LE, 127.0.0.1,  1234, CFE_TBL_NOOP_CC
 Time Services,              CFE_TIME_CMD,       Time No-Op,    0, 0x1805, LE, 127.0.0.1,  1234, CFE_TIME_NOOP_CC
 Event Services,             CFE_EVS_CMD,        EVS No-Op,     0, 0x1801, LE, 127.0.0.1,  1234, CFE_EVS_NOOP_CC
 Command Ingest,             CI_LAB_CMD,         CI No-Op,      0, 0x1884, LE, 127.0.0.1,  1234, CI_LAB_NOOP_CC
 Sample App,                 SAMPLE_APP_CMD,     Sample No-Op,  0, 0x1882, LE, 127.0.0.1,  1234, SAMPLE_APP_NOOP_CC
-Checksum App,               CS_NOOP_CC,         Chksum NoOp,   0, 0x18A0, LE, 127.0.0.1,  1234, Chksm_Enable_HKTlm_CC
+Checksum App,               cs_app_cmd,         Chksum NoOp,   0, 0x18A0, LE, 127.0.0.1,  1234, Chksm_Enable_HKTlm_CC
