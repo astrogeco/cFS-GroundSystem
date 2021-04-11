@@ -1,0 +1,42 @@
+#
+# cfe-es-hk-tlm.txt
+#
+# This file should have the following comma delimited fields:
+#   1. Data item description
+#   2. Offset of data item in packet
+#   3. Length of data item
+#   4. Python data type of item ( using python struct library )
+#   5. Display type of item ( Currently Dec, Hex, Str, Enm )
+#   6. Display string for enumerated value 0 ( or NULL if none )
+#   7. Display string for enumerated value 1 ( or NULL if none )
+#   8. Display string for enumerated value 2 ( or NULL if none )
+#   9. Display string for enumerated value 3 ( or NULL if none )
+#
+#  Note(1): A line that begins with # is a comment
+#  Note(2): Remove any blank lines from the end of the file
+#
+Command Counter,       12,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+Error Counter,         13,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+Checksum State,        14,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+EEProm CS State,       15,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+Memory CS State,       16,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+App CS State,          17,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+Tables CS State,       18,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+OS CS State,           19,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+cFE CS State,          20,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+Recompute In Progress, 21,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+OneShot In Progress,   22,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+EEProm Err Counter,    24,  2,  B, Dec, NULL,        NULL,        NULL,       NULL
+Memory Err Counter,    25,  2,  B, Dec, NULL,        NULL,        NULL,       NULL
+App Err Counter,       26,  2,  B, Dec, NULL,        NULL,        NULL,       NULL
+Tbl Err Counter,       27,  2,  B, Dec, NULL,        NULL,        NULL,       NULL
+cFE Err Counter,       28,  2,  B, Dec, NULL,        NULL,        NULL,       NULL
+OS Err Counter,        29,  2,  B, Dec, NULL,        NULL,        NULL,       NULL
+Current Table,         30,  2,  B, Dec, NULL,        NULL,        NULL,       NULL
+Entry in Table,        31,  2,  B, Dec, NULL,        NULL,        NULL,       NULL
+EEProm Baseline,       32,  4,  B, Dec, NULL,        NULL,        NULL,       NULL
+OS Baseline,           33,  4,  B, Dec, NULL,        NULL,        NULL,       NULL
+cFE Baseline,          34,  4,  B, Dec, NULL,        NULL,        NULL,       NULL
+Last OneShot Address,  35,  4,  B, Dec, NULL,        NULL,        NULL,       NULL
+Last OneShot ChkSm,    36,  4,  B, Dec, NULL,        NULL,        NULL,       NULL
+Pass Ctr,              37,  4,  B, Dec, NULL,        NULL,        NULL,       NULL
